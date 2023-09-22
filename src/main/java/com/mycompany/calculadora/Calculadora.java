@@ -14,7 +14,6 @@ public class Calculadora {
     public static void main(String[] args) {
         FrmCalculadora calc = new FrmCalculadora();
         calc.setTitle("Calculadora do Freckin");
-        calc.setBackground(Color.BLACK);
         calc.setLocationRelativeTo(calc);
         calc.setVisible(true);
     }  
